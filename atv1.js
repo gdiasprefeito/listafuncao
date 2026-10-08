@@ -1,16 +1,3 @@
-// ATIVIDADE 1 - ÁREA DO RETÂNGULO
-
-// Pensamento lógico:
-// Primeiro, recebo a base e a altura do retângulo.
-// Depois, multiplico a base pela altura.
-// Por fim, retorno o resultado da área.
-//
-// Entrada: base e altura
-// Processamento: base * altura
-// Saída: valor da área
-//
-// Dificuldade: Fácil.
-// Motivo: basta fazer uma multiplicação simples.
 
 function calcularAreaRetangulo(base, altura) {
     let area = base * altura;
@@ -18,5 +5,7 @@ function calcularAreaRetangulo(base, altura) {
     return area;
 }
 
-// Teste
+//teste para colca no console sempre chamar a função e 
+// colocar os numeros desejados sem a necessidade de pedir 
+// para o usuario digitar 
 console.log(calcularAreaRetangulo(10, 5));

@@ -1,18 +1,3 @@
-// ATIVIDADE 8 - AUTENTICAÇÃO
-
-// Pensamento lógico:
-// Primeiro, verifico se a senha possui pelo menos 6 caracteres.
-// Depois, a função de autenticação chama a função validarSenha.
-// Se a senha for válida, libero o acesso.
-// Caso contrário, informo que a senha é muito curta.
-//
-// Entrada: usuário e senha
-// Processamento: verificar o tamanho da senha
-// Saída: mensagem de acesso concedido ou senha muito curta
-//
-// Dificuldade: Médio.
-// Motivo: precisamos criar duas funções e uma delas precisa
-// chamar a outra.
 
 function validarSenha(senha) {
     if (senha.length >= 6) {
@@ -30,6 +15,8 @@ function autenticarUsuario(usuario, senha) {
     }
 }
 
-// Testes
+//teste para colca no console sempre chamar a função e 
+// colocar os numeros desejados sem a necessidade de pedir 
+// para o usuario digitar 
 console.log(autenticarUsuario("Gabriel", "123456"));
 console.log(autenticarUsuario("Gabriel", "123"));

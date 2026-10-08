@@ -1,17 +1,4 @@
-// ATIVIDADE 4 - CÁLCULO DO IMC
 
-// Pensamento lógico:
-// Primeiro, calculo o IMC usando peso / (altura * altura).
-// Depois, verifico em qual faixa o resultado está.
-// Por fim, retorno a classificação correspondente.
-//
-// Entrada: peso em kg e altura em metros
-// Processamento: peso / (altura * altura)
-// Saída: classificação do IMC
-//
-// Dificuldade: Médio.
-// Motivo: além de calcular o IMC, é necessário usar condições
-// para descobrir a classificação.
 
 function calcularIMC(peso, altura) {
     let imc = peso / (altura * altura);
@@ -25,5 +12,9 @@ function calcularIMC(peso, altura) {
     }
 }
 
-// Teste
+//teste para colca no console sempre chamar a função e 
+// colocar os numeros desejados sem a necessidade de pedir 
+// para o usuario digitar 
+// pergunta pro gilberto se tem que criar a variavel antes de mecher com ela ou
+//  se o function já cria ela ou ela foi criada no let e funciona por ser uma função
 console.log(calcularIMC(70, 1.75));

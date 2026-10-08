@@ -1,18 +1,4 @@
-// ATIVIDADE 5 - SOMAR ELEMENTOS DE UM ARRAY
 
-// Pensamento lógico:
-// Primeiro, crio uma variável para guardar a soma.
-// Depois, percorro todos os elementos do array usando um for.
-// A cada repetição, adiciono o valor atual à soma.
-// No final, retorno o total.
-//
-// Entrada: um array de números
-// Processamento: percorrer o array e somar os valores
-// Saída: soma de todos os elementos
-//
-// Dificuldade: Médio.
-// Motivo: é necessário entender como percorrer um array
-// usando um laço de repetição.
 
 function somarElementos(numeros) {
     let total = 0;
@@ -24,5 +10,7 @@ function somarElementos(numeros) {
     return total;
 }
 
-// Teste
+//teste para colca no console sempre chamar a função e 
+// colocar os numeros desejados sem a necessidade de pedir 
+// para o usuario digitar 
 console.log(somarElementos([10, 20, 30, 40]));

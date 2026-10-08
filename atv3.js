@@ -1,16 +1,4 @@
-// ATIVIDADE 3 - CELSIUS PARA FAHRENHEIT
 
-// Pensamento lógico:
-// Recebo a temperatura em Celsius.
-// Depois, aplico a fórmula F = (C * 1.8) + 32.
-// Por fim, retorno o resultado em Fahrenheit.
-//
-// Entrada: temperatura em Celsius
-// Processamento: (Celsius * 1.8) + 32
-// Saída: temperatura em Fahrenheit
-//
-// Dificuldade: Fácil.
-// Motivo: basta aplicar a fórmula fornecida na questão.
 
 function celsiusParaFahrenheit(celsius) {
     let fahrenheit = (celsius * 1.8) + 32;
@@ -18,5 +6,8 @@ function celsiusParaFahrenheit(celsius) {
     return fahrenheit;
 }
 
-// Teste
-console.log(celsiusParaFahrenheit(25));
+//teste para colca no console sempre chamar a função e 
+// colocar os numeros desejados sem a necessidade de pedir 
+// para o usuario digitar 
+//lembrete tem como criar a variavel e ja mecer nela 
+console.log(celsiusParaFahrenheit(5));
